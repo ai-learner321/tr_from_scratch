@@ -22,7 +22,7 @@ def unit_test():
     model = TransformerEmbedding(vocab_size=50000, d_model=512)
     print(model)
 
-    x = torch.LongTensor([[7, 42, 105]])
+    x = torch.LongTensor([[7, 42, 105]])  # assume inputs have been tokenizated
     res = model(x)
     print(res.shape)
     print(res)
