@@ -32,5 +32,9 @@ def unit_test():
     print(v)
 
 
+def main():
+    pass
+
+
 if __name__ == '__main__':
-    unit_test()
+    main()
